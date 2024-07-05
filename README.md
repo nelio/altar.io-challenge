@@ -1,4 +1,4 @@
-# Altar.io Multi-part File Upload Webserver
+# Multi-part File Upload Webserver
 
 ## Description
 This project is a web server designed for multi-part file uploads, built using Express.js. It supports file uploads with basic authentication and includes features such as CPU and memory usage monitoring to prevent system overload.
