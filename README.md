@@ -24,13 +24,13 @@ curl -i -u charlie:5647  -X POST -H "Content-Type: multipart/form-data" http://l
 
 ## Running the in Docker
 To run the server in a Docker container:
-1. Build the Docker image with `docker build -t altar-io-webserver .`.
-2. Run the Docker container with `docker run -p 3000:3000 altar-io-webserver`.
+1. Build the Docker image with `docker build -t bff-webserver .`.
+2. Run the Docker container with `docker run -p 3000:3000 bff-webserver`.
 3. The server will be available at `http://localhost:3000`.
 4. To stop the container, use `docker stop <container_id>`.
 5. To remove the container, use `docker rm <container_id>`.
-6. To remove the image, use `docker rmi altar-io-webserver`.
-7. To run the container in detached mode, use `docker run -d -p 3000:3000 altar-io-webserver`.
+6. To remove the image, use `docker rmi bff-webserver`.
+7. To run the container in detached mode, use `docker run -d -p 3000:3000 bff-webserver`.
 8. To view the logs of the container, use `docker logs <container_id>`.
 9. To view the running containers, use `docker ps`.
 
