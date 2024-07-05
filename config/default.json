@@ -1,0 +1,6 @@
+{
+  "maxConcurrentUsers": 5,
+  "port": 3000,
+  "maxCPULoad": 70,
+  "maxMemoryUsage": 70
+}
